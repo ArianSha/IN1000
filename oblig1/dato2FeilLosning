@@ -1,0 +1,29 @@
+#denne losningen blir skrapet ettersom oppgaven vil ha et heltall og ikke desimal
+#    #bruker blir bedt om aa skrive om 2 ulike datoer.
+#     #input blir konvertert til string for aa kunne bli regnet med videre, ettersom float ikke kan bruke attributen 'split'
+#         dato1 = str(inputSjekk('Skriv datoen til din bursdag? (svar i desimal der fyrste er dag og andre er maaned f.eks ''30.8'') '))
+#         dato2 = str(inputSjekk('Hvilken dag i maaneded er bestevennen din fodt i? (svar i desimal der fyrste er dag og andre er maaned f.eks ''30.8'') '))
+
+#         # #her blir datoen skrevet inn fra bruker splittet, dagen blir lagret i en variabel og maaned blir lagret i en annen
+#         a, b = map(int,dato1.split(".", 1))
+#         dag1 = a
+#         maaned1 = b
+
+#         # #her blir andre datoen skrevet inn fra bruker splittet, dagen blir lagret i en variabel og maaned blir lagret i en annen
+#         a, b = map(int,dato2.split(".", 1))
+#         dag2 = a
+#         maaned2 = b
+
+#         #denne if lokka sjekker hvilken dato kommer forst, og printer
+#         #her sjekker den om fyrste maaneden
+#         if maaned1<maaned2:
+#             print('Riktig rekkefolge!')
+#         elif maaned1>maaned2:
+#             print('Feil rekkefolge!')
+#         else:
+#             if dag1<dag2:
+#                 print('Riktig rekkefolge!')
+#             elif dag1>dag2:
+#                 print('Feil rekkefolge')
+#             else:
+#                 print('Samme dato!')
